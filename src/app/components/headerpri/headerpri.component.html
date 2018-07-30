@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <h1>Dash Board</h1>
+    <button mat-raised-button   color="white"
+                                [routerLink]="['/dashboard/skills']"
+                                routerLinkActive="active"
+                        >My Skills
+    </button>
+    <button mat-raised-button   color="white"
+                                [routerLink]="['/dashboard/profile']"
+                                routerLinkActive="active">My Profile
+    </button>
+    <button mat-button  color="warn"
+                        (click)="logout()">Logout
+    </button>
+</mat-toolbar>

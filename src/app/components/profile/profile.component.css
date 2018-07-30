@@ -1,0 +1,17 @@
+.profile {
+    margin: 8%
+}
+a:hover {
+    background:black;
+    display: block;
+    padding: 4%;
+    cursor: pointer;
+    width: 80%;
+}
+a:active { 
+    background:black;
+    display: block;
+    padding: 4%;
+    cursor: pointer;
+    width: 80%;
+}

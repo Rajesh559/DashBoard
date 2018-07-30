@@ -1,0 +1,14 @@
+  <mat-card class="full-width">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a routerLink="/dashboard">My Skills</a></li>
+          <li class="breadcrumb-item active" aria-current="page">{{params.name}}</li>
+        </ol>
+      </nav>
+      <mat-card>
+          <mat-card-title> {{params.name}}</mat-card-title>
+          <mat-card-subtitle>Rating:</mat-card-subtitle>
+          <h4>{{params.rating}} </h4>
+          <img src ="{{params.image}}">
+    </mat-card>
+</mat-card>

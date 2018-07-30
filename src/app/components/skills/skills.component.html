@@ -1,0 +1,33 @@
+<mat-card class="full-width">
+  <table class="table">
+      <thead>
+        <tr>
+          <th>Logo</th>
+          <th>Technology Name</th>
+          <th>Rating(Out of 5)</th>
+          <th>Action's</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img  class="thumbnail"
+                    src="https://www.shareicon.net/download/2016/07/08/116973_development.ico">
+          </td>
+          <td>Angular</td>
+          <td>5</td>
+          <td>
+            <button  mat-raised-button color="primary"
+                    [routerLink]="['/dashboard/technology']"
+                    [queryParams]="{name: 'Angular', rating : '5', image : 'https://www.shareicon.net/download/2016/07/08/116973_development.ico'}"
+                    class="btn btn-primary">View
+            </button>
+            <button  mat-raised-button color="accent"
+                    [routerLink]="['/dashboard//edit']"
+                    [queryParams]="{name: 'Angular', rating : '5', image : 'https://www.shareicon.net/download/2016/07/08/116973_development.ico'}"
+                    class="btn btn-default">Edit
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-card>

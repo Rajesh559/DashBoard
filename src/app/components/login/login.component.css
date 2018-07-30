@@ -1,0 +1,16 @@
+.login {
+    max-width: 30%;
+    margin: 10% auto;
+}
+mat-card-title {
+    text-align: center;
+}    
+.full-width {
+    margin: auto;
+    width: 80%;
+    margin:  1% 10%;
+}
+button {
+    margin-left: 35%;
+    width: 30%;
+}

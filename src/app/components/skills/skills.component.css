@@ -1,0 +1,10 @@
+.thumbnail{
+    width:20%;  
+}
+
+.full-width {
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 1%;
+}

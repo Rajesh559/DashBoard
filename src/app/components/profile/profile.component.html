@@ -1,0 +1,19 @@
+<mat-grid-list  cols="3" 
+                class="profile">
+    <mat-grid-tile>
+        <mat-toolbar color="primary" class="profile">
+            <mat-toolbar-row class="profile">
+                <a (click)="person()">Personal Info</a>
+            </mat-toolbar-row>
+            <mat-toolbar-row class="profile">
+                <a (click)="contact()">Contact Info</a>
+            </mat-toolbar-row>
+            <mat-toolbar-row class="profile">
+              <a (click)="qualification()">Qualification</a>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2">
+        <router-outlet></router-outlet>
+    </mat-grid-tile>    
+</mat-grid-list>

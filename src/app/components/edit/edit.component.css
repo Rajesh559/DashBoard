@@ -1,0 +1,16 @@
+.full-width {
+    margin: auto;
+    width: 50%;
+    padding: 5%;    
+}
+mat-card-title {
+    text-align: center;
+}
+.input-full-width {
+    width: 100%;
+}
+
+button {
+    margin-left: 43%;
+   
+}
